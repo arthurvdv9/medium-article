@@ -1,0 +1,91 @@
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+body {
+  color: #151515;
+  font-size: 18px;
+  line-height: 1.6;
+  font-weight: lighter;
+  font-family: 'Lora', serif;
+  margin: 0;
+}
+
+.banner {
+  background-image: url(https://images.pexels.com/photos/3470478/pexels-photo-3470478.jpeg?cs=srgb&dl=pexels-fabian-wiktor-3470478.jpg&fm=jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  padding: 120px 0;
+}
+
+.banner h1 {
+  font-size: 38px;
+}
+
+h1, h2 {
+  font-family: 'Caveat', sans-serif;
+  font-weight: bold;
+}
+
+.container{
+  width: 700px;
+  margin: 50px auto;
+}
+
+h2 {
+  display: block;
+  font-size: 1.5em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+link{
+  display: none;
+}
+
+/* The sidebar menu */
+.sidenav {
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 160px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #111; /* Black */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+a {
+  text-decoration: none;
+  font-family: 'Lora', serif;
+  color: #151515;
+}
+
+@media(max-width: 992px) {
+  .container {
+    width: 700px;
+  }
+}
